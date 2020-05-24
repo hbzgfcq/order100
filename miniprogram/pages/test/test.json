@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "x-segmentPane":"/components/x-segmentPane/x-segmentPane",
+    "x-segmentBar": "/components/x-segmentBar/x-segmentBar"
+  }
+}

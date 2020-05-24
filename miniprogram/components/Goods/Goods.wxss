@@ -1,0 +1,21 @@
+.goods {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10rpx;
+}
+.goods .goodsImageWrap {
+  flex: 1;
+}
+.goods .goodsImageWrap .goodsImage {
+  display: block;
+}
+.goods .goodsInfo {
+  flex: 1;
+}
+.goods .goodsInfo .goodsName {
+  margin-left: 10rpx;
+}
+.goods .goodsInfo .goodsPrice {
+  margin-left: 10rpx;
+}

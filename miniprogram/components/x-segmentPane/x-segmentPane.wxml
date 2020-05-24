@@ -1,0 +1,27 @@
+<view class="segmentPane segment-cls">
+  <!-- 组件通过属性向子组件传数据 -->
+  <x-segmentBar id="xs_in_pane" segmentItems="{{segmentItems}}"  bind:selectChange="_handlerSelectChange"/>
+  <!-- 事件绑定就是将事件和事件处理函数关联起来 -->
+  <!-- 绑定自定义事件举例 bind:selectChange -->
+   <!--绑定普通事件举例 bindchange -->
+  <swiper circular="true" class="segmentContainer" current="{{currentIdx}}" bindchange="_paneChange">
+    <swiper-item>
+      <view>page 1</view>
+    </swiper-item>
+    <swiper-item>
+      <view>page 2</view>
+    </swiper-item>
+    <swiper-item>
+      <view>page 3</view>
+    </swiper-item>
+    <swiper-item>
+      <view>page 4</view>
+    </swiper-item>
+    <swiper-item>
+      <view>page 5</view>
+    </swiper-item>
+    <swiper-item>
+      <view>page 6</view>
+    </swiper-item>
+  </swiper>
+</view>

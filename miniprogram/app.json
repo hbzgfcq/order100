@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/test/test",
+    "pages/cart/cart",
+    "pages/me/me",
+    "pages/login/login",
+    "pages/addGoods/addGoods",
+    "pages/list/list",
+    "pages/detail/detail",
+    "pages/search/search"
+  ],
+  "cloud": true,
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eb4450",
+    "navigationBarTitleText": "惠美佳超市欢迎您",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "images/market1.png",
+        "selectedIconPath": "images/market2.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "images/cart1.png",
+        "selectedIconPath": "images/cart2.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "images/me1.png",
+        "selectedIconPath": "images/me2.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

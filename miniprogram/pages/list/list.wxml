@@ -1,0 +1,10 @@
+<view>
+  <block wx:for="{{goods}}" wx:key="_id">
+    <view class="goods" id="{{item._id}}" bindtap="toDetail">
+      <view>
+        <image src="{{item.fileID}}" lazy-load="true" />
+      </view>
+      <view>{{item.title}}</view>
+    </view>
+  </block>
+</view>

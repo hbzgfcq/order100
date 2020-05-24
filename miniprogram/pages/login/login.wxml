@@ -1,0 +1,4 @@
+<button wx:if="{{!userInfo.openID}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">登 录</button>
+<block wx:else>
+  <image src="{{userInfo.avatarUrl}}" />
+</block>

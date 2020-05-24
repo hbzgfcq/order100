@@ -1,0 +1,4 @@
+<!-- <x-segmentBar segmentItems="{{items}}" /> -->
+
+<x-segmentPane segmentItems="{{items}}" segment-cls="xs"/>
+<!-- 页面通过属性向组件传数据 -->

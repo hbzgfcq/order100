@@ -1,0 +1,51 @@
+<view class="cates">
+	<SearchInput></SearchInput>
+	<view class="cates_container">
+		<!-- 左侧的菜单栏 -->
+		<scroll-view scroll-y class="left_menu">
+			<view class="menu_item" ></view>
+			<view>财源广进</view>
+			<view>平安</view>
+			<view>发大财</view>
+			<view>财源广进</view>
+			<view>财源广进</view>
+			<view>财源广进</view>
+			<view>财源广进</view>
+			<view>平安</view>
+			<view>发大财</view>
+			<view>财源广进</view>
+			<view>财源广进</view>
+			<view>财源广进</view>
+			<view>财源广进</view>
+			<view>平安</view>
+			<view>发大财</view>
+			<view>财源广进</view>
+			<view>财源广进</view>
+			<view>财源广进</view>
+			<view>财源广进</view>
+			<view>平安</view>
+			<view>发大财</view>
+			<view>财源广进</view>
+			<view>财源广进</view>
+			<view>财源广进</view>
+			<view>财源广进</view>
+			<view>平安</view>
+			<view>发大财</view>
+			<view>财源广进</view>
+			<view>财源广进</view>
+			<view>财源广进</view>
+			<view>财源广进</view>
+			<view>平安</view>
+			<view>发大财</view>
+			<view>财源广进</view>
+			<view>财源广进</view>
+			<view>财源广进</view>
+		</scroll-view>
+		<!-- 右侧商品列表 -->
+		<scroll-view scroll-y class="right_content">
+		<navigator url="/pages/detail/detail?name={{item.goodsID}}" wx:for="{{goods}}" wx:key="*this">			
+			<Goods goodsInfo="{{item}}"></Goods>
+		</navigator>
+		</scroll-view>
+	</view>
+</view>

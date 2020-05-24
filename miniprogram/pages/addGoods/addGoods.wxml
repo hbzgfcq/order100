@@ -1,0 +1,1 @@
+<button bindtap="addGoods">增加商品</button>

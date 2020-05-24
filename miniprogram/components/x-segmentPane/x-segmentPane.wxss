@@ -1,0 +1,9 @@
+.segmentPane{
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+}
+.segmentContainer{
+  background-color: green;
+  flex: 1;
+}

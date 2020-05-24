@@ -1,0 +1,9 @@
+<view class="goods">
+    <view class="goodsImageWrap">
+        <image class="goodsImage" src="{{goodsInfo.src}}" mode="widthFix"></image>
+    </view>
+    <view class="goodsInfo">
+        <view class="goodsName">{{goodsInfo.goodsName}}</view>
+        <view class="goodsPrice">{{goodsInfo.goodsPrice}}</view>
+    </view>
+</view>
